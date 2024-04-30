@@ -13,7 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://fballou.github.io/",
+  "homepage": "https://fballou.github.io/cogs125portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
