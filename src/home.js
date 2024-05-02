@@ -8,6 +8,7 @@ import { About } from './about';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
@@ -19,8 +20,8 @@ export default function Home() {
                     {' Fadi\'s Portfolio'}
                 </Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="/COGS125.github.io/home">Home</Nav.Link>
-                    <Nav.Link href="/COGS125.github.io/about">About</Nav.Link>
+                    <Link to="/COGS125.github.io/home">Home</Link>
+                    <Link to="/COGS125.github.io/about">About</Link>
                 </Nav>
                 </Container>
             </Navbar>

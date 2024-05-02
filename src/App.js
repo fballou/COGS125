@@ -15,7 +15,7 @@ function App() {
       <main>
         <section>
           <Routes>
-            <Route path="/COGS125.github.io/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/COGS125.github.io/about" element={<About />} />
 
             <Route path="*" element={<Home />} />
