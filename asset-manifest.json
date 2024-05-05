@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/COGS125.github.io/static/css/main.adc24193.css",
-    "main.js": "/COGS125.github.io/static/js/main.c05ee916.js",
+    "main.css": "/COGS125.github.io/static/css/main.375b6c43.css",
+    "main.js": "/COGS125.github.io/static/js/main.9dc9533b.js",
     "static/js/453.eb6de6f0.chunk.js": "/COGS125.github.io/static/js/453.eb6de6f0.chunk.js",
     "static/media/deer.jpeg": "/COGS125.github.io/static/media/deer.f85321bc947b4e833d64.jpeg",
     "static/media/logo.svg": "/COGS125.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/COGS125.github.io/index.html",
-    "main.adc24193.css.map": "/COGS125.github.io/static/css/main.adc24193.css.map",
-    "main.c05ee916.js.map": "/COGS125.github.io/static/js/main.c05ee916.js.map",
+    "main.375b6c43.css.map": "/COGS125.github.io/static/css/main.375b6c43.css.map",
+    "main.9dc9533b.js.map": "/COGS125.github.io/static/js/main.9dc9533b.js.map",
     "453.eb6de6f0.chunk.js.map": "/COGS125.github.io/static/js/453.eb6de6f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adc24193.css",
-    "static/js/main.c05ee916.js"
+    "static/css/main.375b6c43.css",
+    "static/js/main.9dc9533b.js"
   ]
 }
