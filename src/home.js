@@ -20,7 +20,7 @@ export default function Home() {
                     {' Fadi\'s Portfolio'}
                 </Navbar.Brand>
                 <Nav className="me-auto">
-                    <Link to="/COGS125.github.io/home">Home</Link>
+                    <Link to="/COGS125.github.io/home" className="home-link">Home</Link>
                     <Link to="/COGS125.github.io/about">About</Link>
                 </Nav>
                 </Container>

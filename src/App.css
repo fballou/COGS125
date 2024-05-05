@@ -196,10 +196,11 @@ html, body {
   align-items: center; /* Center the content vertically */
 }
 .deer-image {
-  width: 60%;
+  width: 50%;
   height: auto;
   display: block; 
-  margin-left: 3vw; 
+  margin: auto;
+  padding: 5vh;
 }
 .who-i-am {
   font-family: 'Barlow', sans-serif;
@@ -211,28 +212,68 @@ html, body {
   text-align: center;
 }
 .my-info {
-  margin: 2vw;
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4vh;
 }
 .contact-me {
   display: flex;
   justify-content: center;
   align-items: center;
   /* margin-left: auto; */
-  margin-left: 2vw;
+  margin: auto;
+  width: 15%;
+  border-color: orange;
+  border-width: 4px;
+}
+
+.home-link {
+  padding-right: 2vw;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #4CAF50; /* or any highlight color */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.my-career, .my-info {
+  animation: fadeIn 2s ease-out;
+  font-size: 1.5rem;
+  font-weight: "semibold";
+}
+
+.deer-image {
+  transition: transform 0.3s ease;
+}
+
+.deer-image:hover {
+  transform: scale(1.1); /* slightly enlarges the image */
 }
 
 
-
-
-
-#footer {
-  padding: 7% 15%;
-  text-align: center;
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
-.footer-icon {
-  color: orange;
-}
-.footer-icon:hover {
-  color: teal;
+.background {
+  animation: slideInFromLeft 1.5s ease-out forwards;
 }
